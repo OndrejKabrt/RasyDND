@@ -9,6 +9,9 @@ switch ($request) {
     case '/':
         $redirect = '\OtherSites\index.php';
         break;
+    case '/ONas':
+        $redirect = '\OtherSites\ONas.php';
+        break;
     default:
         http_response_code(404);
         require __DIR__ . '\OtherSites\404.php';
