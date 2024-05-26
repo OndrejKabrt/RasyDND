@@ -12,6 +12,13 @@ switch ($request) {
     case '/ONas':
         $redirect = '\OtherSites\ONas.php';
         break;
+    case '/Register':
+        $redirect = '\OtherSites\RegisterForm.php';
+        break;
+    case '/Login':
+        $redirect = '\OtherSites\LoginForm.php';
+        break;
+
     default:
         http_response_code(404);
         require __DIR__ . '\OtherSites\404.php';
@@ -19,7 +26,7 @@ switch ($request) {
 }
 
 $_SESSION['site'] = $redirect;
-require_once __DIR__ . '/OtherSites/SameForAll/Header.php';
+require_once __DIR__ . '/OtherSites/SameForAll/Head.php';
 require_once __DIR__ . $redirect ?? __DIR__ . '/OtherSites/index.php';
 require_once __DIR__ . '/OtherSites/SameForAll/Footer.php';
 

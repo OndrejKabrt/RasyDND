@@ -32,27 +32,3 @@ function Overeni(string $username, string $password): void
     }
 
 }
-
-
-
-        /*
-        if($result = $connection->query($ps)) {
-            if ($result->num_rows > 0) {
-                while($row = $result->fetch_assoc()) {
-                    if ($row["jmeno"] == $username && $row["heslo"] == $password){
-                      $_SESSION["username"] = $username;
-                      DBC::closeConnection();
-
-                        header("Location: welcome.php");
-
-                    }
-                }
-            }
-        }else{
-            die("Connection faild");
-        }
-       
-        DBC::closeConnection();
-*/
-        
-

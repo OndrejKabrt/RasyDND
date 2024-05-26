@@ -7,8 +7,7 @@ include_once 'DatabaseConnection.php';
             header('Location: /register');
             exit();
         }
-        
-
+    
         if(insertUser($_POST["username"], $_POST["password"])){
             echo "Jste úspěšně zaregistrováni!";
             header('Location: /welcome');
@@ -16,7 +15,6 @@ include_once 'DatabaseConnection.php';
             $_SESSION["error"] = "Stala se nějaká chyba!";
             header('Location: /register');
         }
-
 
         /**
         * @param string $username

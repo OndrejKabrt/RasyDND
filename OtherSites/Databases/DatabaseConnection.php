@@ -19,8 +19,7 @@ class DatabaseConnection
             try {
                 self::$connection = new PDO(
                     'mysql:host=' . self::HOST . ';dbname=' . self::DATABASE,
-                    self::USER,
-                    self::PASSWORD
+                    self::USER, self::PASSWORD
                 );
             } catch (PDOException $e) {
                 throw new PDOException($e->getMessage(), $e->getCode());
