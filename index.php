@@ -18,6 +18,9 @@ switch ($request) {
     case '/Login':
         $redirect = '\OtherSites\LoginForm.php';
         break;
+    case '/Helma':
+        $redirect = '\OtherSites\JednotliveKarty\Helma.php';
+        break;
 
     default:
         http_response_code(404);
