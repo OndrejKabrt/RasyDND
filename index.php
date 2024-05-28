@@ -29,7 +29,9 @@ switch ($request) {
 }
 
 $_SESSION['site'] = $redirect;
-require_once __DIR__ . '/OtherSites/SameForAll/Head.php';
+require_once __DIR__ . '/OtherSites/SameForAll/Header.php';
+require_once __DIR__ . '/OtherSites/SameForAll/Style.php';
+require_once __DIR__ . '/OtherSites/SameForAll/Navbar.php';
 require_once __DIR__ . $redirect ?? __DIR__ . '/OtherSites/index.php';
 require_once __DIR__ . '/OtherSites/SameForAll/Footer.php';
 
