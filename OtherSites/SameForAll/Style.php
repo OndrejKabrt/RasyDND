@@ -62,24 +62,42 @@
           width: 60px;
 
         }
-        .navbar a{
+        .btn-secondary{
           background-color: #666;
           color:#fff;
           font-size: 15px;
-          padding: 8px 8px;
           border-radius: 30px;
-          margin: 5px auto;
+          margin: auto;
+          margin-top:3px;
           min-width: 100px;
           max-width: 100px;
           text-align: center;
         }
+
+        .dropdown-menu{
+          padding:0;
+          background-color: transparent;
+          border: 0;
+          text-align: center;
+          margin: auto;
+          transition: opacity 250ms ease-in-out;
+          
+        }
+
         .navbar b{
           background-color: #666;
           color:#fff;
           font-size: 15px;
-          padding: 8px 8px;
+          padding: 4px;
           text-align: center;
-          width: 60px;
+          width: 100px;
+          border-radius: 15px;
+          margin-left: 3px;
+        }
+        .li div{
+          margin: AUTO;
+          justify-content: center;
+          opacity: 0;
         }
         
         .container {

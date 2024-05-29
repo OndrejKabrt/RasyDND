@@ -13,14 +13,14 @@
       <?php
         $dropdownBrneni = [
           ["name" => "Helma", "link" => "/Helma"],
-          ["name" => "Torzo", "link" => "#another-action"],
-          ["name" => "Boty", "link" => "#something-else"]
+          ["name" => "Torzo", "link" => "/Torzo'"],
+          ["name" => "Boty", "link" => "/Boty"]
         ];
         echo "<li class='nav-item dropdown'>";
-        echo "<a class='nav-link dropdown-toggle' href='' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Brnění</a>";
+        echo "<a class='nav-link btn-secondary' href='' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>Brnění</a>";
         echo "<div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>";
         foreach ($dropdownBrneni as $polozka) {
-            echo "<b class='dropdown-item' href='{$polozka['link']}'>{$polozka['name']}</b>";
+            echo "<b class='btn btn-secondary' href='{$polozka['link']}'>{$polozka['name']}</b>";
         }
         echo "</div>";
         echo "</li>";

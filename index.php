@@ -19,9 +19,28 @@ switch ($request) {
         $redirect = '\OtherSites\LoginForm.php';
         break;
     case '/Helma':
-        $redirect = '\OtherSites\JednotliveKarty\Helma.php';
+        $redirect = '\OtherSites\JednotliveKarty\Brneni\Helma.php';
         break;
-
+    case '/Torzo':
+        $redirect = '\OtherSites\JednotliveKarty\Brneni\Torzo.php';
+        break;
+    case '/Boty':
+        $redirect = '\OtherSites\JednotliveKarty\Brneni\Boty.php';
+        break;
+    case '/Luk':
+        $redirect = '\OtherSites\JednotliveKarty\Zbrane\Luk.php';
+        break;  
+    case '/Mec':
+        $redirect = '\OtherSites\JednotliveKarty\Zbrane\Mec.php';
+        break;  
+    case '/Staff':
+        $redirect = '\OtherSites\JednotliveKarty\Zbrane\Staff.php';
+        break;
+    case '/Rasy':
+        $redirect = '\OtherSites\JednotliveKarty\Rasy.php';
+        break;      
+        
+        
     default:
         http_response_code(404);
         require __DIR__ . '\OtherSites\404.php';
