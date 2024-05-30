@@ -2,7 +2,7 @@
 
 class DatabaseConnection
 {
-    private const HOST = "127.0.0.1:3306";
+    private const HOST = "localhost";
     private const USER = "root";
     private const PASSWORD = "root";
     private const DATABASE = "webovkyblog";

@@ -2,7 +2,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg">
-  <a class="btn btn-secondary" href="/">Witcherinie</a>
+  <a class="btn btn-secondary" href="/witcherinie">Witcherinie</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon">Vyber</span>
   </button>
@@ -29,8 +29,8 @@
         if (isset($_SESSION["isLoggedIn"]) && $_SESSION["isLoggedIn"] === true) {
             echo "<a class='btn btn-secondary nav-link active' aria-current='page' href='/database/logout'>Log out</a>";
         } else {
-            echo "<a class='btn btn-secondary' href='/Login'>Login</a>";
-            echo "<a class='btn btn-secondary' href='/Register'>Register</a>";
+            echo "<a class='btn btn-secondary' href='/login'>Login</a>";
+            echo "<a class='btn btn-secondary' href='/register'>Register</a>";
         }
 
         

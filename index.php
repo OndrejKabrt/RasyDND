@@ -1,22 +1,31 @@
 <!-- použito, z kodu pana učitele Pavláta -->
 
+
+
 <?php
+
 session_start();
 $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case '':
-    case '/':
-        $redirect = '\OtherSites\index.php';
+    case '/witcherinie':
+        $redirect = '\OtherSites\witcherinie.php';
         break;
     case '/ONas':
         $redirect = '\OtherSites\ONas.php';
         break;
-    case '/Register':
+    case '/register':
         $redirect = '\OtherSites\RegisterForm.php';
         break;
-    case '/Login':
+    case '/database/logout':
+        $redirect = '\OtherSites\Databases\logout.php';
+        break;
+    case '/login':
         $redirect = '\OtherSites\LoginForm.php';
+        break;
+    case '/database/login':
+        $redirect = '\OtherSites\Databases\login.php';
         break;
     case '/Helma':
         $redirect = '\OtherSites\JednotliveKarty\Brneni\Helma.php';
@@ -45,6 +54,7 @@ switch ($request) {
         http_response_code(404);
         require __DIR__ . '\OtherSites\404.php';
         exit();
+        
 }
 
 $_SESSION['site'] = $redirect;

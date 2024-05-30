@@ -10,10 +10,10 @@ include_once 'DatabaseConnection.php';
     
         if(insertUser($_POST["username"], $_POST["password"])){
             echo "Jste úspěšně zaregistrováni!";
-            header('Location: /welcome');
+            header('Location: /witcherinie');
         }else{
             $_SESSION["error"] = "Stala se nějaká chyba!";
-            header('Location: /register');
+            header('Location:/register');
         }
 
         /**
@@ -21,6 +21,7 @@ include_once 'DatabaseConnection.php';
         * @param string $password
         * @return bool
         */
+
 function insertUser(string $username, string $password): bool
 {
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
