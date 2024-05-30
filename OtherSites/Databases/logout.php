@@ -3,4 +3,5 @@
 session_destroy();
 
 $_SESSION["loggedin"] = false;
-header("Location: ../witcherinie.php");
+header("Location: /");
+die();

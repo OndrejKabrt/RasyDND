@@ -24,7 +24,7 @@ function Overeni(string $username, string $password): void
     if ($result && password_verify($password, $result["password"])) {
         $_SESSION["user_id"] = $result["id"];
         $_SESSION["user_name"] = $result["username"];
-        header("Location: ../witcherinie"); 
+        header("Location: /OtherSites/witcherinie.php"); 
         $_SESSION["isLoggedIn"] = true;
     } else {
         $_SESSION["error"] = "Neplatné přihlášení.";

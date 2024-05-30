@@ -9,5 +9,5 @@
 </div>
 
 <?php 
-
+header("Location: witcherinie.php"); 
 ?>
