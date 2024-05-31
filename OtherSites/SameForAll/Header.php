@@ -104,6 +104,8 @@
         img{
           vertical-align: middle;
           border-style:double;
+          width: 400px;
+          height: 600px;
           
         }
         .li div{

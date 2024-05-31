@@ -1,6 +1,7 @@
 # RasyDND
 
-RasyDND je webová aplikace postavená v PHP, která poskytuje podrobné informace o různých fantasy rasách a jejich charakteristikách. Aplikace zahrnuje popisy, statistiky a magické schopnosti ras jako lidé, elfové, půlčíci, trpaslíci a dopleři.
+RasyDND je webová aplikace postavená v PHP, která poskytuje podrobné informace o různých rasách ze Zaklínače a jejich charakteristikách. Aplikace zahrnuje popisy, statistiky a magické schopnosti ras jako lidé, elfové, půlčíci, trpaslíci a dopleři.
+Pak jsou tam dodatečné informace o zbrojích a zbraních.
 
 ## Funkce
 
@@ -12,7 +13,6 @@ RasyDND je webová aplikace postavená v PHP, která poskytuje podrobné informa
 ## Instalace
 
 1. Klonujte repozitář:
-   ```sh
    git clone https://github.com/OndrejKabrt/RasyDND.git
 
 2. Vytrořte si v MySQL Databázi
