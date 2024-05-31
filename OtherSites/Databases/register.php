@@ -10,7 +10,7 @@ include_once 'DatabaseConnection.php';
     
         if(insertUser($_POST["username"], $_POST["password"])){
             echo "Jste úspěšně zaregistrováni!";
-            header('Location: /witcherinie');
+            header('Location: /OtherSites/witcherinie.php');
         }else{
             $_SESSION["error"] = "Stala se nějaká chyba!";
             header('Location:/register');

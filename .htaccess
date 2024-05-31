@@ -4,9 +4,6 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L,QSA]
-
-
-
 #RewriteRule ^$ /OtherSites/witcherinie.php [L]
 #RewriteRule ^witcherinie$ /OtherSites/witcherinie.php [L]
 #RewriteRule ^ONas$ /OtherSites/ONas.php [L]

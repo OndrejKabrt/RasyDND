@@ -1,10 +1,17 @@
 <div class="transparent">
-    <h1>Hlavní informace2</h1>
-
-    <p>Tuto vebovou stránku jsem založil za účelem zorientování se v projektu do jiného předmětu.</p>
-    <p>Některé parametry věcí můžou být matoucí a nic neříkající, takže tady bude oddělení založené pro každou 
-    věc a popisující, co si pod jednotlivými parametry představit. </p>
-    <p>Dále by tato webovka měla poskytnout informace k dračímu doupěti ve stylo zaklínače, pravidla atd.</p>
+<h2>Helma</h2>
+        <p>
+            Kus brnění chránící hlavu před poškozením všeho druhu. Helma má 
+            samozřejmě spousty druhů a spousty jmen. Někdy má i přední plát na 
+            ochranu obličeje, což výrazně zvyšuje obrannou třídu. Samozřejm Dále 
+            chránič obličeje ovlivňuje i viditelnost, která může ovlivňovat případný 
+            postřeh hráče. Zároveň což ovlivňuje obrannou třídu je materiál, který 
+            ovlivňuje i váhu helmy.
+        </p>
+        <p>
+            Jako helma se bere i kroužková kukla a kožené čepice s minimálním 
+            obranným číslem.
+        </p>
     
 </div>
 

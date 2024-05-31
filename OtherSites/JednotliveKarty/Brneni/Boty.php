@@ -1,11 +1,12 @@
 <div class="transparent">
-    <h1>Hlavní informace3</h1>
-
-    <p>Tuto vebovou stránku jsem založil za účelem zorientování se v projektu do jiného předmětu.</p>
-    <p>Některé parametry věcí můžou být matoucí a nic neříkající, takže tady bude oddělení založené pro každou 
-    věc a popisující, co si pod jednotlivými parametry představit. </p>
-    <p>Dále by tato webovka měla poskytnout informace k dračímu doupěti ve stylo zaklínače, pravidla atd.</p>
-    
+<h2>Boty</h2>
+        <p>
+            Boty jsou jednodušší na výběr, mají svůj druh, váhu, a dobrý, ale né 
+            nijak prevratný parametr a to výšku. Výška taky ovlivňuje obrannou třídu 
+            hráče, čím vyšší boty jsou, tím větší je obranná třída a také váha. Boty 
+            ale nemusí být brány jako kus brnění, mohou fungovat pouze jako doplněk 
+            oblečení bez obranné třídy.
+        </p>
 </div>
 
 <?php 

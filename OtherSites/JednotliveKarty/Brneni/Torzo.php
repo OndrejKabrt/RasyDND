@@ -1,11 +1,17 @@
 <div class="transparent">
-    <h1>Hlavní informace1</h1>
-
-    <p>Tuto vebovou stránku jsem založil za účelem zorientování se v projektu do jiného předmětu.</p>
-    <p>Některé parametry věcí můžou být matoucí a nic neříkající, takže tady bude oddělení založené pro každou 
-    věc a popisující, co si pod jednotlivými parametry představit. </p>
-    <p>Dále by tato webovka měla poskytnout informace k dračímu doupěti ve stylo zaklínače, pravidla atd.</p>
-    
+<h2>Torzo</h2>
+        <p>
+            Torzo zahrnuje části brnění v oblasti horních končetin, torza a kalhot. 
+            Torza mají nespočet druhů. Můžou být plátová, kožená, kroužková míšená a 
+            další. Každá z těchto možností má určité přednosti. Jak už váhová, z 
+            pohledu ochrany hráče a samozřejmě se to promítá i na ceně. Důležitý 
+            parametr co torzo v mé hře nabývá je i pohyblivost. Pohyblivost ovlivňuje 
+            možnost možnost hráče uskočit ráně.
+        </p>
+        <p>
+            Jako torzo může být brána i košile kryjící jenom torzo bez krytí nohou a 
+            rukou.
+        </p>
 </div>
 
 <?php 
