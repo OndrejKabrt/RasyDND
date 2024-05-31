@@ -98,9 +98,8 @@
           border: 0;
           text-align: center;
           margin: auto;
-          transition: opacity 250ms ease-in-out;
-          
         }
+
         .li div{
           margin: AUTO;
           justify-content: center;
@@ -187,6 +186,7 @@
 </head>
 <body>
 
+
       <?php
         echo "<nav class='navbar navbar-expand-lg'>";
         echo "<a class='navbar-brand' href='/'>Witcherinie</a>";
@@ -212,6 +212,7 @@
         echo "<a class='nav-item nav-link' href='/othersites/staff'>Staff</a>";
         echo "</div>";
         echo "</li>";
+        echo "<a class='nav-item nav-link' href='/othersites/rasy'>Rasy</a>";
 
         if (isset($_SESSION["isLoggedIn"]) && $_SESSION["isLoggedIn"] === true) 
         {

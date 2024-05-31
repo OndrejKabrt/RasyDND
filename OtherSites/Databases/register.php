@@ -1,19 +1,19 @@
 <?php
+
 include_once 'DatabaseConnection.php';
 
         if (empty($_POST["username"]) || empty($_POST["password"]))
         {
             $_SESSION["error"] = "Uživatelské jméno nebo heslo je prázdné";
-            header('Location: /register');
-            exit();
+            echo"<script> window.location.href='/othersites/registerf' </script>";
         }
     
         if(insertUser($_POST["username"], $_POST["password"])){
             echo "Jste úspěšně zaregistrováni!";
-            header('Location: /OtherSites/witcherinie.php');
+            echo"<script> window.location.href='/' </script>";
         }else{
             $_SESSION["error"] = "Stala se nějaká chyba!";
-            header('Location:/register');
+            echo"<script> window.location.href='/othersites/registerf' </script>";
         }
 
         /**

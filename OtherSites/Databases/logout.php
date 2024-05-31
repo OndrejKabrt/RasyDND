@@ -1,5 +1,5 @@
 <?php
+
 session_destroy();
 $_SESSION["loggedin"] = false;
-header("Location: /othersites/onas");
-die();
+echo"<script> window.location.href='/' </script>";
