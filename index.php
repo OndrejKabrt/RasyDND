@@ -48,7 +48,6 @@ switch ($request) {
     case '/othersites/rasy':
         $redirect = '\othersites\jednotlivekarty\Rasy.php';
         break;
-          
     default:
         http_response_code(404);
         require __DIR__ . '\othersites\404.php';
