@@ -3,10 +3,8 @@ include_once 'DatabaseConnection.php';
 
         if (empty($_POST["username"]) || empty($_POST["password"])){
             $_SESSION["error"] = "Username or Password is empty";
-            header('Location: LoginForm.php');
-            exit();
+            echo"<script> window.location.href='/othersites/loginf' </script>";
         }
-
         Overeni($_POST["username"],$_POST["password"] );
 
 /**
@@ -24,11 +22,16 @@ function Overeni(string $username, string $password): void
     if ($result && password_verify($password, $result["password"])) {
         $_SESSION["user_id"] = $result["id"];
         $_SESSION["user_name"] = $result["username"];
-        header("Location: ../witcherinie"); 
         $_SESSION["isLoggedIn"] = true;
+/**
+ * Přesměrování řešeno pomocí přesměrování scriptem
+ * Nalezeno ve videu jednoho Inda
+ * https://www.youtube.com/watch?v=No7XfRi3yi8&ab_channel=WebProjects%26BugFixes
+ */
+        echo"<script> window.location.href='/' </script>";
     } else {
         $_SESSION["error"] = "Neplatné přihlášení.";
-        header("Location: /login");
+        echo"<script> window.location.href='/othersites/loginf' </script>";
     }
 
 }
