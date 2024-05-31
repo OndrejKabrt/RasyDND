@@ -1,12 +1,10 @@
 <?php
 include_once 'DatabaseConnection.php';
-
         if (empty($_POST["username"]) || empty($_POST["password"])){
             $_SESSION["error"] = "Username or Password is empty";
             header('Location: LoginForm.php');
             exit();
         }
-
         Overeni($_POST["username"],$_POST["password"] );
 
 /**
@@ -24,7 +22,8 @@ function Overeni(string $username, string $password): void
     if ($result && password_verify($password, $result["password"])) {
         $_SESSION["user_id"] = $result["id"];
         $_SESSION["user_name"] = $result["username"];
-        header("Location: /OtherSites/witcherinie.php"); 
+        header("Location: /"); 
+        die();
         $_SESSION["isLoggedIn"] = true;
     } else {
         $_SESSION["error"] = "Neplatné přihlášení.";

@@ -9,10 +9,10 @@ $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case '':
-    case '/witcherinie':
+    case '/':
         $redirect = '/OtherSites/witcherinie.php';
         break;
-    case '/ONas':
+    case '/onas':
         $redirect = '/OtherSites/ONas.php';
         break;
     case '/register':
@@ -27,25 +27,25 @@ switch ($request) {
     case '/database/login':
         $redirect = '/OtherSites/Databases/login.php';
         break;
-    case '/Helma':
+    case '/helma':
         $redirect = '/OtherSites/JednotliveKarty/Brneni/Helma.php';
         break;
-    case '/Torzo':
+    case '/torzo':
         $redirect = '/OtherSites/JednotliveKarty/Brneni/Torzo.php';
         break;
-    case '/Boty':
+    case '/boty':
         $redirect = '/OtherSites/JednotliveKarty/Brneni/Boty.php';
         break;
-    case '/Luk':
+    case '/luk':
         $redirect = '/OtherSites/JednotliveKarty/Zbrane/Luk.php';
         break;  
-    case '/Mec':
+    case '/mec':
         $redirect = '/OtherSites/JednotliveKarty/Zbrane/Mec.php';
         break;  
-    case '/Staff':
+    case '/staff':
         $redirect = '/OtherSites/JednotliveKarty/Zbrane/Staff.php';
         break;
-    case '/Rasy':
+    case '/rasy':
         $redirect = '/OtherSites/JednotliveKarty/Rasy.php';
         break;      
         
@@ -63,5 +63,5 @@ require_once __DIR__ . '/OtherSites/SameForAll/Style.php';
 require_once __DIR__ . '/OtherSites/SameForAll/Navbar.php';
 require_once __DIR__ . $redirect ?? __DIR__ . '/OtherSites/index.php';
 require_once __DIR__ . '/OtherSites/SameForAll/Footer.php';
-
+ob_end_flush();
 

@@ -176,5 +176,4 @@
           border-top-right-radius: 23px;
           border-top-left-radius: 23px;
         }
-
     </style>
