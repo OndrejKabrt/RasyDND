@@ -4,6 +4,6 @@
 </body>
 
 <footer>
-    <p>Vytvořeno pro Novigradské zbrojířství &copy <script>document.write(new Date().getFullYear())</script> </p>  
+    <p>Vytvořeno pro Novigradské zbrojířství &copy <script>document.write(new Date().getFullYear())</script>Ondřej Kábrt</p>  
 </footer>
 </html>

@@ -1,13 +1,21 @@
 <div class="transparent">
 <h1>Rasy</h1>
-
+<p>
+    Tento List Ras je mnohdy popis ras, jak si je pamatuju, nebo jak chci ukázat,že se chovají.
+    Proto, když to pujde budu čtenáře směřovat na stránky, kde jsou rasy popsány případně jinými 
+    způsoby, aby měli čtenáři možnost si informace přečíst někdy od povolanějších zdrojů.
+</p>
+<br>
+    <div>
         <h2>Lidé</h2>
         <p>
+        <img src="/othersites/pictures/peasant.jpg" class="rounded mx-auto d-block" alt="..." width="400" height="600">
             Lidé žijí na kontinentu pro ně od nepaměti. Žijí poměrně krátkou dobu, 
             což se kvůli nízké životní úrovni dá chápat, nemůže za to však jenom 
             nízká životní úroveň. V lesích, jeskyních, močálech a jiných pozemských 
             místech se schovávají všelijaká monstra, která jenom čekají, aby ulovila 
             kdejakého člověka.
+            
         </p>
         <h3>Vesnice</h3>
         <p>
@@ -37,9 +45,12 @@
             krevní statistiky. Dokážou se dostat na úroveň mistra a možná i výše, ale 
             k tomu potřebují mnohdy více než 30 let zkušeností a praxe.
         </p>
-
+    </div>
+<br>
+<div>
         <h2>Elfové</h2>
         <p>
+        <img src="/othersites/pictures/Elf.jpg" class="rounded mx-auto d-block" alt="..." width="400" height="600">
             Též známí jako půvabný lid. Žili na kontinentu od nepaměti. Žili ve svých 
             vysokých palácích a zahradách v klidu a míru. Pak přišla konjunkce sfér, 
             při této události se na kontinent dostaly nesčetné počty různých bytostí 
@@ -75,9 +86,12 @@
             o hodně vyšší nadání a znalosti. Avšak ne každý elf používá magii, vše 
             záleží na místě, kde žil.
         </p>
-
+        </div>
+        <br>
+        <div>
         <h2>Pulčíci</h2>
         <p>
+        <img src="/othersites/pictures/pulcik.jpg" class="rounded mx-auto d-block" alt="..." width="400" height="600">
             Rasa nízkého vzrůstu, ještě menšího než trpaslíci. Žijí mnohdy na venkově, 
             na farmách, v bylinkářstvích a jiných už ne tak pravděpodobných místech. I 
             když je to více než sto let od pogromů, které nebyly páchány jenom na 
@@ -94,6 +108,8 @@
         <p>
             Pulčíci musí mít ve statistikách inteligence jedno z dvou vyšších 
             statistických čísel a jedno z nižších statistických čísel na síle.
+            Jako statistické znevýhodnění však vyváží přirozená schopnost ticháho
+            plížení a lehké maskování díky jejich vzrůstu.
         </p>
         <h3>Magie</h3>
         <p>
@@ -101,9 +117,12 @@
             zvládají, je léčivá magie a nějaká lehčí kouzla, jako hýbání malými 
             předměty. Na druhou stranu mají vyšší nadání k bylinkářství.
         </p>
-
+        </div>
+        <br>
+        <div>
         <h2>Trpaslíci</h2>
         <p>
+        <img src="/othersites/pictures/dwarf.jpg" class="rounded mx-auto d-block" alt="..." width="400" height="600">
             Usměvavější a veselejší čelátka, tedy pokud vás znají a věří vám. 
             Jinak se od trpaslíka dočkáte jenom přímého a nijak přátelského konání. 
             Trpaslíci jsou na rozdíl od pulčíků o něco vyšší a o hodně fyzicky 
@@ -127,13 +146,18 @@
             Trpaslíci stejně jako pulčíci mají mizivé nadání k magii a zvládají pouze 
             léčivou magii a začátečnická kouzla.
         </p>
-
+        </div>
+        <br>
+        <div>
         <h2>Dopleři</h2>
         <p>
+        <img src="/othersites/pictures/Doppler.jpg" class="rounded mx-auto d-block" alt="..." width="400" height="600">
             Rasa velmi nenáviděná. Dokáže se změnit do podoby všemožných tvorů svojí 
             velikosti. Sice inteligentní, ale i tak určitý druh monstra, které trpí 
             při kontaktu se stříbrem. Vždy když se dotkne stříbra, tak se začne měnit 
-            do svého původního tvaru a podoby.
+            do svého původního tvaru a podoby. Kvůli povědomí o jejich měnění formy jsou
+            mezi lidmi nenávidění. Jinak je to klidná a přátelská rasa.
+            Můžou žít mezi lidmi, a lidé si jich ani nemusí všimnout.
         </p>
         <p>
             Dopleři nemají specifické místo výskytu. Kde se jim dobře žije, tam 
@@ -145,9 +169,13 @@
             Doppler nemá vyplněné pole charisma. Kvůli jeho proměnlivému stavu se 
             charisma liší podle podoby, kterou aktuálně doppler používá. Síla má 
             podobná úskalí jako charisma, záleží jenom na podobě, jakou Doppler má.
+            Když se Doppler změní do své základní podoby, tak mu charisma padá na minimum
+            a lidé jsou automaticky ihned napřátelští, tedy pokud ho uvidí.
         </p>
         <h3>Magie</h3>
         <p>
-            Doppler jako stvoření magického původu magii používat nemůže.
+            Doppler jako stvoření magického původu magii používat nemůže. Nemůže mu
+            být předána, naučena ani geneticky vrozena.
         </p>
+        </div>
 </div>
